@@ -36,7 +36,7 @@
             app:cb_color="#F44336" />
 
         <at.markushi.ui.CircleButton
-            android:id="@+id/button3"
+            android:id="@+id/buttoncheck0"
             android:layout_width="match_parent"
             android:layout_height="64dip"
             android:layout_marginBottom="8dip"
@@ -47,7 +47,7 @@
             app:cb_checked_color="#777777" />
 
         <at.markushi.ui.CircleButton
-            android:id="@+id/button4"
+            android:id="@+id/buttoncheck1"
             android:layout_width="match_parent"
             android:layout_height="64dip"
             android:layout_marginBottom="8dip"

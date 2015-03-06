@@ -36,7 +36,7 @@ public class MainActivity extends ActionBarActivity {
 			rootView.findViewById(R.id.button2).setOnClickListener(this);
 
             // Animated checkable button
-            rootView.findViewById(R.id.button3).setOnClickListener(new View.OnClickListener() {
+            rootView.findViewById(R.id.buttoncheck0).setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     CircleButton cb = (CircleButton)v;
@@ -45,7 +45,7 @@ public class MainActivity extends ActionBarActivity {
             });
 
             // Simple checkable button
-            rootView.findViewById(R.id.button4).setOnClickListener(new View.OnClickListener() {
+            rootView.findViewById(R.id.buttoncheck1).setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
                     CircleButton cb = (CircleButton)v;
