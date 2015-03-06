@@ -1,8 +1,3 @@
-repositories {
-    maven { url "https://jitpack.io" }
-}
-
-apply plugin: 'maven'
 apply plugin: 'com.android.application'
 
 android {
@@ -28,5 +23,5 @@ android {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar', '*.aar'])
     compile 'com.android.support:appcompat-v7:21.0.3'
-    compile 'com.github.andrew-codechimp:android-circlebutton:V1.3'
+    compile project(':library')
 }
