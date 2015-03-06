@@ -54,7 +54,6 @@
             android:src="@drawable/ic_action_face"
             app:cb_color="#2196F3"
             app:cb_checkable="true"
-            app:cb_checked_animation="false"
             app:cb_checked_src="@drawable/ic_action_tick"
             app:cb_checked_color="#777777" />
 
