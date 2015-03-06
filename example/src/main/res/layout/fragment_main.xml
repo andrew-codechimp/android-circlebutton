@@ -13,7 +13,7 @@
 
         <at.markushi.ui.CircleButton
             android:id="@+id/button0"
-            android:layout_width="match_parent"
+            android:layout_width="64dip"
             android:layout_height="64dip"
             android:layout_marginBottom="8dip"
             android:src="@drawable/ic_action_star"
@@ -37,7 +37,7 @@
 
         <at.markushi.ui.CircleButton
             android:id="@+id/buttoncheck0"
-            android:layout_width="match_parent"
+            android:layout_width="64dip"
             android:layout_height="64dip"
             android:layout_marginBottom="8dip"
             android:src="@drawable/ic_action_face"
@@ -48,7 +48,7 @@
 
         <at.markushi.ui.CircleButton
             android:id="@+id/buttoncheck1"
-            android:layout_width="match_parent"
+            android:layout_width="64dip"
             android:layout_height="64dip"
             android:layout_marginBottom="8dip"
             android:src="@drawable/ic_action_face"
