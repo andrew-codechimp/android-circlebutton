@@ -8,6 +8,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 
+import at.markushi.ui.CircleButton;
+
 public class MainActivity extends ActionBarActivity {
 
 	@Override
@@ -33,7 +35,25 @@ public class MainActivity extends ActionBarActivity {
 			rootView.findViewById(R.id.button1).setOnClickListener(this);
 			rootView.findViewById(R.id.button2).setOnClickListener(this);
 
-			return rootView;
+            // Animated checkable button
+            rootView.findViewById(R.id.button3).setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    CircleButton cb = (CircleButton)v;
+                    cb.setChecked(!cb.getChecked());
+                }
+            });
+
+            // Simple checkable button
+            rootView.findViewById(R.id.button4).setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    CircleButton cb = (CircleButton)v;
+                    cb.setChecked(!cb.getChecked());
+                }
+            });
+
+            return rootView;
 		}
 
 		@Override

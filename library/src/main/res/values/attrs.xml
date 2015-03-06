@@ -3,5 +3,9 @@
     <declare-styleable name="CircleButton">
         <attr name="cb_color" format="color" />
         <attr name="cb_pressedRingWidth" format="dimension" />
+        <attr name="cb_checkable" format="boolean" />
+        <attr name="cb_checked_color" format="color" />
+        <attr name="cb_checked_src" format="reference" />
+        <attr name="cb_checked_animation" format="boolean"/>
     </declare-styleable>
 </resources>

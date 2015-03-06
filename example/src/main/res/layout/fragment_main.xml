@@ -1,8 +1,8 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-             xmlns:app="http://schemas.android.com/apk/res-auto"
-             android:layout_width="match_parent"
-             android:layout_height="match_parent"
-             android:orientation="horizontal">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
 
     <LinearLayout
         android:layout_gravity="center"
@@ -15,31 +15,48 @@
             android:id="@+id/button0"
             android:layout_width="match_parent"
             android:layout_height="64dip"
-            android:layout_centerHorizontal="true"
-            android:layout_alignParentBottom="true"
             android:layout_marginBottom="8dip"
-            android:src="@drawable/ic_action_tick"
-            app:cb_color="#99CC00" />
+            android:src="@drawable/ic_action_star"
+            app:cb_color="#4CAF50" />
 
         <at.markushi.ui.CircleButton
             android:id="@+id/button1"
             android:layout_width="64dip"
             android:layout_height="64dip"
-            android:layout_centerHorizontal="true"
-            android:layout_alignParentBottom="true"
             android:layout_marginBottom="8dip"
-            android:src="@drawable/ic_action_tick"
-            app:cb_color="#FFBB33" />
+            android:src="@drawable/ic_action_star"
+            app:cb_color="#FFC107" />
 
         <at.markushi.ui.CircleButton
             android:id="@+id/button2"
             android:layout_width="64dip"
             android:layout_height="64dip"
-            android:layout_centerHorizontal="true"
-            android:layout_alignParentBottom="true"
             android:layout_marginBottom="8dip"
-            android:src="@drawable/ic_action_tick"
-            app:cb_color="#FF4444" />
+            android:src="@drawable/ic_action_star"
+            app:cb_color="#F44336" />
+
+        <at.markushi.ui.CircleButton
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="64dip"
+            android:layout_marginBottom="8dip"
+            android:src="@drawable/ic_action_face"
+            app:cb_color="#2196F3"
+            app:cb_checkable="true"
+            app:cb_checked_src="@drawable/ic_action_tick"
+            app:cb_checked_color="#777777" />
+
+        <at.markushi.ui.CircleButton
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="64dip"
+            android:layout_marginBottom="8dip"
+            android:src="@drawable/ic_action_face"
+            app:cb_color="#2196F3"
+            app:cb_checkable="true"
+            app:cb_checked_animation="false"
+            app:cb_checked_src="@drawable/ic_action_tick"
+            app:cb_checked_color="#777777" />
 
     </LinearLayout>
 </FrameLayout>
